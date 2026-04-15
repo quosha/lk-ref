@@ -21,4 +21,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface AppConfig {
     String value() default "";
+    String defaultValue() default ""; 
 }
